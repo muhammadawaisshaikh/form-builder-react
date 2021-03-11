@@ -1,8 +1,7 @@
 import './App.css';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 
 import { routes } from './layout/routes';
-
 import Sidebar from './layout/Sidebar';
 
 function App() {
@@ -12,7 +11,7 @@ function App() {
         <Sidebar />
       </div>
       <div className="col-9">
-        <BrowserRouter>
+        <Switch>
           {
             routes.map(route => {
               return (
@@ -22,7 +21,7 @@ function App() {
               )
             })
           }
-        </BrowserRouter>
+        </Switch>
       </div>
     </div>
   );
