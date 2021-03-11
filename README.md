@@ -11,3 +11,6 @@ https://www.digitalocean.com/community/tutorials/how-to-handle-routing-in-react-
 https://moduscreate.com/blog/react-context-api-state-management/
 https://reactjs.org/docs/context.html
 https://levelup.gitconnected.com/state-management-in-react-using-context-api-and-hooks-931c9842f204
+
+# UUID npm (UUID v1 is unique Id generator by using a combination the host computers MAC address and the current date and time)
+https://www.npmjs.com/package/uuid
