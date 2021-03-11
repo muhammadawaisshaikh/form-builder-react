@@ -9,9 +9,9 @@ function Sidebar() {
 
         <ul>
           {
-            routes.map(route => {
+            routes.map((route, i) => {
               return (
-                <li>
+                <li key={i}>
                   <Link to={route.path}>
                     {route.name}
                   </Link>

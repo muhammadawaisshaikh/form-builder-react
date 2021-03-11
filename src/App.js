@@ -13,9 +13,9 @@ function App() {
       <div className="col-9">
         <Switch>
           {
-            routes.map(route => {
+            routes.map((route, i) => {
               return (
-                <Route path={route.path}>
+                <Route path={route.path} key={i}>
                   {route.component}
                 </Route>
               )
