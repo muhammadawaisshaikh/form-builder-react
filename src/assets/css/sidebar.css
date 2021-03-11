@@ -1,0 +1,49 @@
+.sidebar {
+    background: var(--blue);
+    height: 100%;
+    color: var(--white);
+    position: relative;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.sidebar ul li a {
+    color: var(--white);
+    text-decoration: none;
+    display: block;
+    padding: 5px 15px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.sidebar ul li a:hover {
+    background: rgb(255 255 255 / 19%);
+}
+
+.sidebar ul.child {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    right: -100%;
+    z-index: 1;
+    background: var(--light-grey);
+    box-shadow: 5px 0 5px #9a9a9a33;
+    display: none;
+}
+
+.sidebar ul.child li {
+    color: var(--black);
+}
+
+.sidebar ul.child li a:hover {
+    background: rgb(218 218 218 / 19%);
+}
+
+.sidebar ul.parent li:hover ul.child {
+    display: block;
+}

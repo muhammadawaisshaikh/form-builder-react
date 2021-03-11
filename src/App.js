@@ -9,7 +9,7 @@ import FormContextProvider from './contexts/FormContext';
 function App() {
   return (
     <FormContextProvider>
-      <div className="row">
+      <div className="main-screen row">
         <div className="col-3">
           <Sidebar />
         </div>
