@@ -1,3 +1,7 @@
+.side-area {
+    height: 100%;
+}
+
 .sidebar {
     background: var(--blue);
     height: 100%;
@@ -15,7 +19,7 @@
     color: var(--white);
     text-decoration: none;
     display: block;
-    padding: 5px 15px;
+    padding: 10px 15px;
     cursor: pointer;
     transition: 0.5s;
 }
@@ -46,4 +50,35 @@
 
 .sidebar ul.parent li:hover ul.child {
     display: block;
+}
+
+/* forms selected */
+
+.form-selected {
+    background: var(--light-grey);
+    padding: 20px 0;
+}
+
+.form-selected a {
+    display: block;
+    cursor: pointer;
+    padding: 10px 15px;
+    font-weight: 500;
+    text-decoration: none;
+    color:  var(--black);
+}
+
+.form-selected a.active, .form-selected a:hover {
+    background: rgb(218 218 218 / 19%);
+}
+
+/* form elements  */
+
+.form-elements a {
+    display: block;
+    padding: 5px 15px;
+    border: 1px dashed;
+    border-radius: 25px;
+    margin: 10px;
+    cursor: pointer;
 }
