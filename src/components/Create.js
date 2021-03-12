@@ -49,7 +49,7 @@ function Create() {
       { formSelected ? <p className="text-black-50">{formSelected.name} <b>{selectedDay.datetime}</b></p> : null }
 
       {
-        sideNav == 1 ?
+        sideNav == 1 || sideNav == 3?
           <div className="form-area py-3">
             <p>Form Area</p>
           </div>
