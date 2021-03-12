@@ -14,3 +14,6 @@ https://levelup.gitconnected.com/state-management-in-react-using-context-api-and
 
 # UUID npm (UUID v1 is unique Id generator by using a combination the host computers MAC address and the current date and time)
 https://www.npmjs.com/package/uuid
+
+# Form Builder - React (Cool npm)
+https://www.npmjs.com/package/react-form-builder2
